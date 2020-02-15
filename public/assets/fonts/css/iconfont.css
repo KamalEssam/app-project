@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('../fonts/iconfont/iconfont.eot');
+    src: url('../fonts/iconfont/iconfont.eot?#iefix') format('eot'),
+    url('../fonts/iconfont/iconfont.woff') format('woff'),
+    url('../fonts/iconfont/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.icon:before {
+    font-family: "iconfont";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+}
+
+
+.icon-arrow-down:before {
+    content: "\E001";
+}
+
+.icon-arrow-footer-mobile:before {
+    content: "\E002";
+}
+
+.icon-benefits:before {
+    content: "\E003";
+}
+
+.icon-close-large:before {
+    content: "\E004";
+}
+
+.icon-close-small:before {
+    content: "\E005";
+}
+
+.icon-download:before {
+    content: "\E006";
+}
+
+.icon-facebook:before {
+    content: "\E007";
+}
+
+.icon-instagram:before {
+    content: "\E008";
+}
+
+.icon-refresh:before {
+    content: "\E009";
+}
+
+.icon-sd-logo:before {
+    content: "\E00A";
+}
+
+.icon-stink-films:before {
+    content: "\E00B";
+}
+
+.icon-stink-studios:before {
+    content: "\E00C";
+}
+
+.icon-stink:before {
+    content: "\E00D";
+}
+
+.icon-twitter:before {
+    content: "\E00E";
+}
+
+.icon-validate-large:before {
+    content: "\E00F";
+}
+
+.icon-validate-small:before {
+    content: "\E010";
+}

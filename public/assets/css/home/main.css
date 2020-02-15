@@ -1,0 +1,504 @@
+.navbar-brand {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-nav.navbar-right .btn {
+    background-color: #ffad33;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid #ffad33;
+    border-radius: 5px;
+    box-shadow: 1px 1px rgb(206, 201, 201);
+}
+
+.navbar-nav.navbar-right .btn {
+    position: relative;
+    z-index: 2;
+    padding: 15px 20px;
+    margin: 10px auto;
+}
+
+.navbar .navbar-collapse {
+    position: relative;
+}
+
+.navbar .navbar-collapse .navbar-right > li:last-child {
+    padding-left: 22px;
+}
+
+.navbar .nav-collapse {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding-right: 120px;
+    padding-left: 80px;
+    width: 100%;
+}
+
+.navbar.navbar-default .nav-collapse {
+    background-color: #f8f8f8;
+}
+
+.navbar.navbar-inverse .nav-collapse {
+    background-color: #222;
+}
+
+.navbar .nav-collapse .navbar-form {
+    border-width: 0;
+    box-shadow: none;
+}
+
+.nav > li > a {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav > li > a:hover {
+    background-color: transparent;
+    color: #ffad33;
+}
+
+.nav-collapse > li {
+    float: right;
+}
+
+.btn.btn-circle {
+    border-radius: 50px;
+}
+
+.btn.btn-outline {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar .nav-collapse {
+        margin: 7.5px auto;
+        padding: 0;
+    }
+
+    .navbar .nav-collapse .navbar-form {
+        margin: 0;
+    }
+
+    .nav-collapse > li {
+        float: none;
+    }
+}
+
+/********************************************home slider*********************************/
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+
+/* Reposition the controls slightly */
+.carousel-control {
+    background: none !important;
+    font-size: 80px;
+    left: -12px;
+    top: 35%;
+}
+
+.carousel-control:hover,
+.carousel-control:active,
+.carousel-control:focus {
+    opacity: 1;
+    transition: all .3s ease;
+
+}
+
+/* Changes the position of the indicators */
+.carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 40px;
+    margin-right: -19px;
+}
+
+#myCarousel .carousel-inner .thumbnail {
+    background-color: transparent;
+    position: relative;
+    border: none !important;
+
+}
+
+#myCarousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+#myCarousel .carousel-indicators .active {
+    background: #ffad33;
+}
+
+#myCarousel .carousel-inner .thumbnail img {
+    transition: all .5s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#myCarousel .carousel-inner .thumbnail:hover img {
+    transition: all .5s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/************************************login*********************************/
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block {
+    background: #DE6262; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float: left;
+    width: 100%;
+    padding: 140px 0;
+}
+
+#login-page .container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+    text-align: left;
+    left: 5%;
+}
+
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.login-sec .copy-text {
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.login-sec .copy-text i {
+    color: #FEB58A;
+}
+
+.login-sec .copy-text a {
+    color: #F5A080;
+}
+
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #F5A080;
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #FEB58A;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-login {
+    background: #F5A080;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-login:hover {
+    color: #fff;
+}
+
+.banner-text {
+    width: 70%;
+    position: absolute;
+    bottom: 80px;
+    padding-left: 20px;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.banner-text h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #FFF;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.banner-text p {
+    color: #fff;
+}
+
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+
+/* Reposition the controls slightly */
+.carousel-control {
+    background: none !important;
+    font-size: 80px;
+    left: -12px;
+    top: 35%;
+}
+
+.carousel-control:hover,
+.carousel-control:active,
+.carousel-control:focus {
+    opacity: 1;
+    transition: all .3s ease;
+
+}
+
+/* Changes the position of the indicators */
+.carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 40px;
+    margin-right: -19px;
+}
+
+#loginCarousel .carousel-inner .thumbnail {
+    background-color: transparent;
+    position: relative;
+    border: none !important;
+
+}
+
+#loginCarousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+#loginCarousel .carousel-indicators .active {
+    background: #ffad33;
+}
+
+#loginCarousel .carousel-inner .thumbnail img {
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0 10px 10px 0;
+    padding: 0;
+    transition: all .5s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#loginCarousel .img-height .thumbnail img {
+    min-height: 540px;
+}
+
+/***********************************************Plan page*****************************/
+.shape {
+    border-style: solid;
+    border-width: 0 70px 40px 0;
+    float: right;
+    height: 0px;
+    width: 0px;
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -o-transform: rotate(360deg); /* Opera 10.5 */
+    -webkit-transform: rotate(360deg); /* Safari and Chrome */
+    transform: rotate(360deg);
+}
+
+.shape-text {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    right: -40px;
+    top: 2px;
+    white-space: nowrap;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -o-transform: rotate(360deg); /* Opera 10.5 */
+    -webkit-transform: rotate(30deg); /* Safari and Chrome */
+    transform: rotate(30deg);
+}
+
+.project {
+    min-height: 300px;
+    height: auto;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.project-radius {
+    border-radius: 7px;
+}
+
+.project-default {
+    border-color: #999999;
+}
+
+.project-default .shape {
+    border-color: transparent #999999 transparent transparent;
+    border-color: rgba(255, 255, 255, 0) #999999 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.project-danger {
+    border-color: #d9534f;
+}
+
+.project-danger .shape {
+    border-color: transparent #d9534f transparent transparent;
+    border-color: rgba(255, 255, 255, 0) #d9534f rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.project-success {
+    border-color: #5cb85c;
+}
+
+.project-success .shape {
+    border-color: transparent #5cb85c transparent transparent;
+    border-color: rgba(255, 255, 255, 0) #5cb85c rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.project-primary {
+    border-color: #428bca;
+}
+
+.project-primary .shape {
+    border-color: transparent #428bca transparent transparent;
+    border-color: rgba(255, 255, 255, 0) #428bca rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.project-info {
+    border-color: #5bc0de;
+}
+
+.project-info .shape {
+    border-color: transparent #5bc0de transparent transparent;
+    border-color: rgba(255, 255, 255, 0) #5bc0de rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.project-warning {
+    border-color: #f0ad4e;
+}
+
+.project-warning .shape {
+    border-color: transparent #f0ad4e transparent transparent;
+    border-color: rgba(255, 255, 255, 0) #f0ad4e rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.project-content {
+    padding: 0 20px 10px;
+}
+
+#login {
+    background: -moz-linear-gradient(top, #ffffff 1%, #43bda7 99%);
+    background: -webkit-linear-gradient(top, #ffffff 1%, #43bda7 99%);
+    background: linear-gradient(to top, #ffffff 1%, #43bda7 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fcbe1b', endColorstr='#f85648', GradientType=0);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #e8e8e8;
+}
+
+#login .form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#login h1 {
+    color: #1fa67b;
+    font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    /*
+    padding-bottom: 20px;
+    */
+}
+
+#login .form-group {
+    margin-bottom: 25px;
+}
+
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#login .btn.btn-custom {
+    font-size: 14px;
+    margin-bottom: 20px;
+    height: 45px;
+
+}
+
+#login .forget {
+    font-size: 13px;
+    text-align: center;
+    display: block;
+}
+
+.form-control {
+    height: 45px !important;
+}
+
+.form-spaces {
+    margin-top: 8%;
+    margin-left: 35%;
+
+}

@@ -1,0 +1,56 @@
+.page-header{margin-bottom: 10px;}
+.panel-heading{padding: 1px 15px;}
+.form form .error{color: #F00;}
+.redborder{border: 1px solid #B16159 !important;}
+form{padding:20px;}
+input, textarea{padding:4px 15px !important;margin-bottom: 7px;}
+
+.label-form{
+    /*text-align: right;*/
+    /*padding: 0;*/
+}
+
+.label-form span{
+    display: inline-block;
+    margin-left: 2px;
+    color: #F00;
+}
+
+.label-form label{
+    line-height: 2.3;
+}
+
+
+select{
+    border: none !important;
+    background-color: #F4F5F7 !important;
+}
+
+
+input{
+    margin-bottom: 15px !important;
+    height: 32px !important;
+}
+#dynamic-table_filter input{
+    margin-bottom: 15px !important;
+    height: 15px !important;
+}
+input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus,input:-webkit-autofill:active{transition:background-color 5000s ease-in-out 0s;}
+input:focus,input:hover,input:visited,input:active{border-color:#35c7e0 !important;}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder{color:transparent;}
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder{color:transparent;}
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder{color:transparent;}
+input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder{color:transparent;}
+
+input,textarea,select{border-radius:2px!important;}
+select:hover,select:focus{border-color:#35c7e0 !important;}
+
+.btn{height: auto!important;}
+.btn-xs{padding: 4px 25px !important;  }
+select{font-size: 13px!important;padding-left: 10px!important;}
+.edit-country-img{padding-top: 5px;}
+.edit-country-img img{width: 30px; height: 30px;border:1px solid #EEE;}
+input.timepicki-input{padding: 0 !important;}
+.form-group .tags{
+    width:100%;
+}

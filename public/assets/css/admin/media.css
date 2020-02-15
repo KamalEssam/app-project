@@ -1,0 +1,311 @@
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .iziToast {
+        width: 19% !important;
+    }
+
+    #submit-patient {
+        width: 17%;
+    }
+    .no_data{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .no_data{
+        font-size: 14px;
+    }
+    .iziToast {
+        width: 32% !important;
+    }
+
+    #submit-patient {
+        width: 17%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .no_data{
+        font-size: 13px;
+    }
+
+    .bigger-120{
+        font-size: 100% !important;
+    }
+    .no-skin .navbar .navbar-toggle{
+        z-index: 1060;
+    }
+    .navbar {
+        z-index: 1050;
+    }
+    .no-skin .navbar .navbar-toggle.display, .no-skin .navbar .navbar-toggle[data-toggle=collapse]:not(.collapsed) {
+        background-color: transparent;
+        box-shadow: unset;
+        border-color: transparent;
+    }
+    .no-skin .navbar .navbar-toggle:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .no-skin .nav-list li.active:not(.open), .no-skin .nav-list li.active:not(.open) > a, .no-skin .nav-list li.active:not(.open) > a > span, .no-skin .nav-list li, .no-skin .nav-list li > a, .no-skin .nav-list li > a > span {
+        text-align: center;
+        width: 100% !important;
+    }
+    .nav .dashboard-space {
+        margin-top: 0 !important;
+    }
+
+    .nav .sidebar-logo {
+        visibility: hidden;
+    }
+
+    .nav .space-32, [class*=vspace-32] {
+        margin: 0 0 31px;
+    }
+
+    .navbar-fixed-bottom {
+        bottom: 60px;
+        z-index: 1;
+    }
+
+    .iziToast {
+        width: 35% !important;
+    }
+
+    #modal-form {
+        padding: 40px !important;
+    }
+
+    #submit-patient {
+        width: 100%;
+    }
+
+    .add-user {
+        padding: 0;
+    }
+
+    #user-data .mobile {
+        margin-bottom: 0 !important;
+    }
+
+    .form-input {
+        padding: 0;
+    }
+
+    .main-container .menu-toggler {
+        display: block;
+        position: absolute;
+        z-index: 1026;
+        width: 3px;
+        top: 0;
+        margin: 0;
+        border-radius: 0;
+        height: 36px;
+        padding-left: 22px;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+}
+
+@media (min-width: 497px) and (max-width: 767px) {
+    .ml-35felmaya{
+        margin-left: 30%;
+    }
+    .no_data{
+        font-size: 13px;
+    }
+    .bigger-120{
+        font-size: 100% !important;
+    }
+    .no-skin .navbar .navbar-toggle{
+        z-index: 1060;
+    }
+    .navbar {
+        z-index: 1050;
+    }
+    .no-skin .navbar .navbar-toggle.display, .no-skin .navbar .navbar-toggle[data-toggle=collapse]:not(.collapsed) {
+        background-color: transparent;
+        box-shadow: unset;
+        border-color: transparent;
+    }
+    .no-skin .navbar .navbar-toggle:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .no-skin .nav-list li.active:not(.open), .no-skin .nav-list li.active:not(.open) > a, .no-skin .nav-list li.active:not(.open) > a > span, .no-skin .nav-list li, .no-skin .nav-list li > a, .no-skin .nav-list li > a > span {
+        text-align: center;
+        width: 100% !important;
+    }
+    .nav .dashboard-space {
+        margin-top: 0 !important;
+    }
+
+    .nav .sidebar-logo {
+        visibility: hidden;
+    }
+
+    .nav .space-32, [class*=vspace-32] {
+        margin: 0 0 31px;
+    }
+
+    .navbar-fixed-bottom {
+        bottom: 60px;
+        z-index: 1;
+    }
+
+    .iziToast {
+        width: 45% !important;
+    }
+
+    #modal-form {
+        padding: 40px !important;
+    }
+
+    .add-user {
+        padding: 0;
+    }
+
+    .form-input {
+        padding: 0;
+    }
+
+    #user-data .mobile {
+        margin-bottom: 0 !important;
+    }
+
+    #submit-patient {
+        width: 100%;
+    }
+
+    .main-container .menu-toggler {
+        display: block;
+        position: absolute;
+        z-index: 1026;
+        width: 3px;
+        top: 0;
+        margin: 0;
+        border-radius: 0;
+        height: 36px;
+        padding-left: 22px;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+}
+
+@media only screen and (max-width: 496px) {
+    .ml-35felmaya{
+        margin-left: 28%;
+    }
+    .no_data{
+        font-size: 13px;
+    }
+    .bigger-120{
+        font-size: 100% !important;
+    }
+    .no-skin .navbar .navbar-toggle{
+        z-index: 1060;
+    }
+    .navbar {
+        z-index: 1050;
+    }
+    .no-skin .navbar .navbar-toggle.display, .no-skin .navbar .navbar-toggle[data-toggle=collapse]:not(.collapsed) {
+        background-color: transparent;
+        box-shadow: unset;
+        border-color: transparent;
+    }
+    .no-skin .navbar .navbar-toggle:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .nav .dashboard-space {
+        margin-top: 0 !important;
+    }
+
+    .nav .sidebar-logo {
+        visibility: hidden;
+    }
+
+    .nav .space-32, [class*=vspace-32] {
+        margin: 0 0 31px;
+    }
+
+    .navbar-fixed-bottom {
+        bottom: 60px;
+        z-index: 1;
+    }
+
+    #submit-patient {
+        width: 100%;
+    }
+
+    #user-data .mobile {
+        margin-bottom: 0 !important;
+    }
+
+    .form-input {
+        padding: 0;
+    }
+
+    #modal-form {
+        padding: 40px !important;
+    }
+
+    .add-user {
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .no-skin .nav-list li.active:not(.open), .no-skin .nav-list li.active:not(.open) > a, .no-skin .nav-list li.active:not(.open) > a > span,
+    .no-skin .nav-list li, .no-skin .nav-list li > a, .no-skin .nav-list li > a > span {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .label-form label {
+        float: left;
+    }
+
+    .res-style {
+        margin-bottom: 3%;
+    }
+
+    .btn-admin-media {
+        width: 100%;
+    }
+
+    #queue-data .empty {
+        width: 100%;
+    }
+
+    .main-container .menu-toggler {
+        display: block;
+        position: absolute;
+        z-index: 1026;
+        width: 3px;
+        top: 0;
+        margin: 0;
+        border-radius: 0;
+        height: 36px;
+        padding-left: 22px;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+}
